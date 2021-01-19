@@ -1,0 +1,71 @@
+body {
+    background: url("../images/testimonials.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.search {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search h1 {
+    color: white;
+    font-size: 50px;
+}
+
+
+.search input {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    padding-left: 20px;
+    width: 600px;
+    border-radius: 20px;
+    height: 60px;
+}
+
+
+.de-btn {
+    cursor: pointer;
+    border: 0;
+    margin-top: 30px;
+    float: left;
+    border-radius: 20px;
+    min-width: 250px;
+    margin-right: 20px;
+    height: 45px;
+    text-align: center;
+    background-color: #cd9b33;
+    color: #fff;
+    font-weight: 700;
+}
+
+.de-btn:hover {
+    background: black;
+    color: white;
+}
+
+.w600 {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.marl {
+    margin-left: 30px;
+}
+
+.marlt {
+    margin-left: 60px;
+}
+.text {
+    text-align: center;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

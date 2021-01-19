@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+
+<div class="header" id="ct">
+    <div class="w">
+        <div class="nav">
+            <div class="fl">
+                <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+            </div>
+            <div class="fl">
+                <ul>
+                    <li><a href="index.html">Home page</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html" class="currentBorder">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="fr">
+                <a href="search.html"><i class="icomoon user"></i></a>
+
+                <a href="shopping.html"><i class="icomoon cart"></i></a>
+            </div>
+        </div>
+        <div class="ps-hero__content">
+            <h1> Contact us</h1>
+            <div class="ps-breadcrumb">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>></li>
+                    <li class="active">Contact Us</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact w">
+    <div class="fl">
+        <form name="myform" id="myform">
+        <div class="row">
+            <div class="contact-group">
+                <label>Name <sup>*</sup></label>
+                <input class="form-control" type="text" id="username" placeholder="">
+                <p class="redTxt nameCheck">Please input your name</p>
+            </div>
+            <div class="contact-group">
+                <label>EMAIL<sup>*</sup></label>
+                <input class="form-control" id="email" type="text" placeholder="">
+                <p class="redTxt emailCheck">Please input your email</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contact-group">
+                <label class="mar">Your Message <sup>*</sup></label>
+                <textarea class="form-control" id="message" rows="7"></textarea>
+                <p class="redTxt messageCheck">Please input your message</p>
+            </div>
+        </div>
+        <div class="btn mart40" id="submitBtn">Submit</div>
+        </form>
+    </div>
+
+    <div class="fr">
+        <div class="row">
+            <div class="ps-block--contact-2">
+                <h3>OFFICE AT AMERICA</h3>
+                <h4>BASEMENT COMPANY, NEW YORK</h4>
+                <p><i class="fa fa-envelope-o"></i><a href="#">hello@example.com</a></p>
+                <p><i class="fa fa-phone"></i> +1 650-253-0000</p>
+            </div>
+
+            <div class="ps-block--contact-2">
+                <h3>OFFICE AT VIETNAM</h3>
+                <h4>189/32 BASEMENT COMPANY, ABC, VIET NAM</h4>
+                <p><i class="fa fa-envelope-o"></i><a href="#">hello@basis.com</a></p>
+                <p><i class="fa fa-phone"></i> +1 650-253-0000</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="ps-block--contact-2">
+                <h3>OFFICE AT PARIS</h3>
+                <h4>189/32 BASEMENT COMPANY, PARIS, FRANCE</h4>
+                <p><i class="fa fa-envelope-o"></i><a href="#">hello@basis.com</a></p>
+                <p><i class="fa fa-phone"></i> +1 650-253-0000</p>
+            </div>
+
+            <div class="ps-block--contact-2">
+                <h3>FOLLOW US</h3>
+                <ul class="ps-list--social" id="line">
+                    <li><a href="https://facebook.com"><i class="icomoon"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="icomoon"></i></a></li>
+                    <li><a href="https://instagram.com"><i class="icomoon"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="w">
+        <div class="fl">
+            <img class="round" src="images/logo-dark.png" alt="">
+            <p>Tart bear claw cake tiramisu chocolate bar gummies dragée lemon drops brownie.</p>
+            <ul class="ps-list--social">
+                <li><a href="https://facebook.com"><i class="icomoon"></i></a></li>
+                <li><a href="https://twitter.com"><i class="icomoon"></i></a></li>
+                <li><a href="https://instagram.com"><i class="icomoon"></i></a></li>
+            </ul>
+        </div>
+        <div class="fl">
+            <div class="item-1">
+                <h4>Get news & offer</h4>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Your Email...">
+                    <a href="email.html"><button class="SubscribeBtn">Subscribe</button></a>
+                </div>
+                <p>* Don't worry, we never spam</p>
+            </div>
+            <h4>Contact with me</h4>
+            <p>PO Box 16122 Collins Street West,Victoria 8007 Australia
+                (+84 ) 7534 9773, (+84 ) 874 548</p>
+
+        </div>
+        <div class="fl">
+            <h4>Time to Open</h4>
+            <p>
+                Monday - Friday: <br/>
+                09:00 am - 16:00 pm <br/>
+                Saturday: <br/>
+                9:00 am - 14:00 pm <br/>
+				        Sunday： Closed<br/>
+            </p>
+            <p class="footer-img mart40">
+                <img src="images/visa.png" alt="">
+                <img src="images/master-card.png" alt="">
+                <img src="images/paypal.png" alt="">
+            </p>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="totop">
+    <a class="icomoon" href="#"></a>
+</div>
+
+</body>
+</html>
+<script language="javascript">
+  var submitBtn = document.getElementById('submitBtn');
+  submitBtn.onclick = function() {
+    var username = document.getElementById("username");
+    var email = document.getElementById("email");
+    var message = document.getElementById("message");
+    var usp = document.getElementsByClassName("nameCheck");
+    var mess = document.getElementsByClassName("messageCheck");
+    var ema = document.getElementsByClassName("emailCheck");
+    if(username.value == "" || message.value == "" || email.value == ""){
+        if (username.value == "") {
+            usp[0].style.display = "block";
+        }else{
+            usp[0].style.display = "none";
+        }
+        if (message.value == "") {
+            mess[0].style.display = "block";
+        }else{
+            mess[0].style.display = "none";
+        }
+        if (email.value == "") {
+            ema[0].style.display = "block";
+        }else{
+            if (email.value && !/^[a-zA-Z0-9]\w+@\w+\.(com|cn|edu)$/.test(email.value)) {
+                ema[0].innerHTML = "Please enter the correct email"
+            }else{
+                ema[0].style.display = "none";
+            }
+        }
+    }else{
+        if (email.value && !/^[a-zA-Z0-9]\w+@\w+\.(com|cn|edu)$/.test(email.value)) {
+             ema[0].innerHTML = "Please enter the correct email"
+         }else{
+            sessionStorage.setItem("name",username.value); 
+            sessionStorage.setItem("email",email.value); 
+            sessionStorage.setItem("message",message.value); 
+            location.href="./result.html"
+         }
+    } 
+  }
+</script>

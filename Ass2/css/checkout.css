@@ -1,0 +1,173 @@
+#ch {
+    background: url("../images/about.jpg");
+    background-size: cover;
+}
+
+.checkout {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.checkout .fl {
+    width: 750px;
+}
+
+.checkout .fr {
+    width: 400px;
+}
+
+#rdo01 {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.checkout-form {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.checkout-form > label {
+    float: left;
+    margin-bottom: 0;
+    left: 0;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #5b5b5b;
+    font-weight: 400;
+    width: 200px;
+    padding-right: 10px;
+}
+
+.checkout-form > label span {
+    color: red;
+}
+
+.checkout-form-control {
+    width: 516px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: 38px;
+    padding: 6px 12px;
+    border-radius: 0;
+    background-color: #faf7f3;
+    border: none;
+    transition: all 0.4s ease;
+    color: #000;
+}
+
+.ps-checkout__order {
+    color: white;
+    text-align: left;
+    background: #4F3535;
+}
+
+.ps-checkbox {
+    position: relative;
+    display: block;
+}
+
+.ps-checkout__order > header {
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.ps-checkout__order .content {
+    padding: 0 30px 20px;
+}
+
+.ps-checkout__order .table {
+    width: 100%;
+    max-width: 100%;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.ps-checkout table.ps-checkout__products > thead > tr > th {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: none;
+    font-weight: 600;
+}
+
+.ps-checkout__order > footer > h3 {
+    padding: 10px 30px;
+}
+
+.ps-radio label {
+    margin: 0;
+    vertical-align: top;
+    position: relative;
+    padding-left: 20px;
+    font-family: "Lora", serif;
+    color: #737373;
+    font-weight: 400;
+    line-height: 30px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.ps-radio label {
+    color: #fff;
+}
+
+.ps-payment-method {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.left {
+    float: left;
+}
+
+.ps-payment-method li {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #fff;
+}
+
+.ps-payment-method li img {
+    width: 50px;
+    height: 25px;
+}
+
+.checkout-group {
+    padding: 20px 30px;
+    border-top: 1px solid #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.checkout-group p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.ps-checkout__order > footer .paypal .ps-btn {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+button.ps-btn {
+    cursor: pointer;
+    background: #CD9B33;
+    display: block;
+    padding: 9px 60px 7px;
+    line-height: 25px;
+    font-size: 14px;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #cd9b33;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+button.ps-btn:hover {
+    border-color: black;
+    background: black;
+    color: white;
+}

@@ -1,0 +1,77 @@
+.ps-shop {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.shop-wapper {
+    width: 1200px;
+}
+
+.shop-wapper ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-wapper > ul li:first-child {
+    margin-right: 20px;
+}
+
+.shop-wapper ul li img {
+    width: 100%;
+    height: 223px;
+    transition: all .3s;
+
+}
+
+.shop-sort {
+    overflow: hidden;
+    margin: 30px 0 50px;
+}
+
+.product-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-list ul li {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.product-list ul li img:hover {
+    transform: scale(.9);
+}
+
+.list-bd {
+    text-align: center;
+}
+
+.list-bd h3 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #000;
+    line-height: 40px;
+    transition: .4s color;
+}
+
+.ps-pagination {
+    text-align: center;
+}
+
+.ps-pagination a {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background-color: #e4e4e4;
+}
+
+.ps-pagination a:hover {
+    background-color: #cd9b33!important;
+    color: white;
+}

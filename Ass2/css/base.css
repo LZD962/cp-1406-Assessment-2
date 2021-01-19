@@ -1,0 +1,121 @@
+/*base */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.mart40 {
+    margin-top: 40px;
+}
+
+.fr,
+.right {
+    float: right;
+}
+
+i {
+    font-style: normal;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*base //*/
+.SubscribeBtn{
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+}
+
+.round{
+    border-radius:100%;
+}
+
+.flex{
+    display: flex;
+}
+
+/*适配*/
+@media screen and (min-width: 1200px){
+    /*屏幕大于1200px，大屏幕电脑*/
+    .w{
+        width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    /*中屏幕电脑*/
+    .w{
+        width: 1000px;
+    }
+    .nav{
+        overflow: inherit !important;
+    }
+    .logo{
+        width: 80px !important;
+        margin: 0 !important;
+    }
+    .nav .fl li{
+        margin:0;
+    }
+    .about-main .fl img{
+        width: 400px !important;
+    }
+    .team > .fl .fl img{
+        width: 150px !important;
+    }
+    .shop-wapper,.ps-shop{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .w{
+        width: 800px;
+    }
+    .nav{
+        overflow: inherit !important;
+    }
+    .logo{
+        width: 80px !important;
+        margin: 0 !important;
+    }
+    .nav .fl li{
+        margin:0;
+    }
+    .about-main .fl img{
+        width: 400px !important;
+    }
+    .team > .fl .fl img{
+        width: 150px !important;
+    }
+    .shop-wapper,.ps-shop{
+        width: 100% !important;
+    }
+}

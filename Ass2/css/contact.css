@@ -1,0 +1,94 @@
+#ct {
+    background: url("../images/contact.jpg");
+    background-size: cover;
+}
+
+.contact {
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.contact .fl {
+    width: 600px;
+}
+
+.contact .contact-group label {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 400;
+    width: 100%;
+}
+
+.contact .contact-group input {
+    border: 0;
+    width: 250px;
+    padding: 6px 12px;
+    height: 38px;
+    background: #FAF7F3;
+}
+
+.row textarea {
+    border: 0;
+    width: 550px;
+    padding: 6px 12px;
+    background: #FAF7F3;
+}
+
+.btn:hover {
+    border: 0;
+    background: black !important;
+}
+
+
+
+.ps-block--contact-2 h4 {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.2em;
+    letter-spacing: 0.2px;
+    color: #626262;
+    font-weight: 400;
+}
+
+.ps-block--contact-2 p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.ps-block--contact-2 {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#line {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.redTxt{
+    color:red;
+    font-size: 14px;
+    display: none;
+}
+#submitBtn{
+    text-align: center;
+    line-height: 40px;
+}
+
+#submitBtn:hover{
+    border:2px solid #000;
+}
+.centerBox{
+    display: block;
+    margin:0 auto;
+    float: inherit;
+}

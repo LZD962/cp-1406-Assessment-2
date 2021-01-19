@@ -1,0 +1,287 @@
+.part-1 {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.part-1-hd .ps-section__title {
+    font-size: 48px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.part-1-hd img {
+    width: 75px;
+    margin: 15px 0;
+}
+
+.part-1-bd {
+    overflow: hidden;
+}
+
+.part-1-bd-item{
+    margin-bottom: 80px;
+}
+
+.active {
+    color: #cd9b33 !important;
+}
+
+.part-1-bd .right > img {
+    margin-top: 100px;
+    height: 150px;
+    width: 180px;
+}
+
+.content {
+    text-align: left;
+}
+
+.content {
+    float: left;
+    width: 360px;
+}
+
+.content > p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #626262;
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.bar {
+    margin: 10px 0 40px;
+    position: relative;
+    display: block;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #ccc;
+}
+
+.part-2 {
+    overflow: hidden;
+    padding: 80px 0;
+    background: url("../images/testimonials.jpg");
+    margin-bottom: 180px;
+}
+
+.p2-bg {
+    margin: 0 20px;
+    padding: 0 30px 60px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.part-2 .user-img img {
+    width: 116px;
+    border-radius: 50%;
+}
+
+.p2-bg p {
+    font-size: 20px;
+    line-height: 1.8em;
+    color: #3c3c3c;
+}
+
+.part-3 {
+    margin-top: 60px;
+    padding: 20px 0;
+    height: 330px;
+}
+
+.part-3 .w > .fl {
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.time {
+    padding: 70px 0;
+    float: left;
+    max-width: 450px;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.time h4 {
+    margin-bottom: 35px;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+}
+
+.time ul li {
+    padding: 10px 0;
+    display: block;
+    font-size: 18px;
+    color: #000;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.time ul li span {
+    float: right;
+}
+
+.touch {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.touch form {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 100;
+    padding: 30px 30px 0;
+    max-width: 400px;
+    width: 400px;
+    height: 350px;
+    background-color: #000;
+    transform: translateX(-50%);
+}
+
+.touch input {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    padding-left: 0;
+    color: #fff;
+}
+
+.form-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 9px 60px 7px;
+    line-height: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #cd9b33;
+    border: 2px solid #cd9b33;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    text-align: center;
+}
+
+.form-group button a {
+    display: inline-block;
+    text-align: center !important;
+    width: 100px !important;
+    color: #cd9b33;
+    height: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.offer {
+    padding-top: 80px;
+
+}
+
+.offer h4 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #000;
+}
+
+.offer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #979797;
+}
+
+.index-footer {
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    background-color: #22202e;
+    text-align: center;
+}
+
+.f-logo {
+    width: 150px;
+    margin-bottom: 25px;
+    display: inline-block;
+
+}
+
+.f-logo img {
+    width: 100%;
+}
+
+.icon i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    background-color: #b3b3b3;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.index-footer p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #767676;
+}
+
+.ps-btn {
+    transition: background-color, color .3s;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #cd9b33;
+    padding: 19px 80px;
+    color: #fff;
+    vertical-align: middle;
+    text-transform: none;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.ps-btn:hover {
+    background: white;
+    color: #cd9b33;
+}
+
+.SubscribeBtn{
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+}
+
+.borderRadius{
+    border-radius:50px;
+    margin-bottom: 30px;
+}
+
+.round{
+    border-radius:100%;
+}

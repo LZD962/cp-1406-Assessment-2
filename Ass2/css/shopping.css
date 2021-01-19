@@ -1,0 +1,194 @@
+#sh {
+    background: url("../images/about.jpg");
+    background-size: cover;
+}
+
+.cart {
+    padding: 80px 0;
+}
+
+.cart table {
+    width: 1200px;
+}
+
+.cart table tr th {
+    text-align: left;
+
+    font-size: 18px;
+    height: 60px;
+    font-weight: 700;
+    color: #515356;
+    text-transform: uppercase;
+}
+
+
+.cart table tr th:first-child {
+    width: 450px;
+}
+
+.cart table tr th:nth-of-type(2) {
+    width: 150px;
+}
+
+.cart table tr th:nth-of-type(3) {
+    width: 450px;
+}
+
+.cart table tr th:nth-of-type(4) {
+    width: 150px;
+}
+
+.cart table tr th:nth-of-type(5) {
+    width: 50px;
+}
+
+.cart table tr {
+    font-size: 14px;
+}
+
+.cart table tr img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.cart table tr:nth-of-type(n+2) td {
+    padding: 30px 10px;
+    height: 135px;
+    border-top: 1px solid #DDDDDD;
+}
+
+.minus,
+.plus {
+    transition: background-color .3s;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    background: black;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 45px 0 0 45px;
+}
+
+.plus:hover,
+.minus:hover {
+    background: #CD9B33;
+}
+
+
+.plus {
+    transform: rotate(180deg);
+}
+
+
+.control {
+    margin-left: -6px;
+    border: 0;
+    position: relative;
+    top: 0;
+    background: #FAF7F3;
+    margin-right: -4px;
+    display: inline-block;
+    width: 106px;
+    padding: 6px 12px;
+    height: 28px;
+    text-align: center;
+}
+
+.de-btn {
+    cursor: pointer;
+    border: 0;
+    margin-top: 30px;
+    float: left;
+    border-radius: 20px;
+    min-width: 250px;
+    margin-right: 20px;
+    height: 45px;
+    text-align: center;
+    background-color: #cd9b33;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cart table td > span {
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #F1F1F1;
+
+}
+
+.cart table td > span:hover {
+    color: white;
+    background: black;
+}
+
+.cart-pay {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.cart-form-group .form-control {
+    width: 250px;
+    margin-bottom: 20px;
+    height: 45px;
+    padding: 0 20px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    border-radius: 45px;
+}
+
+.cart-form-group .ps-btn {
+    width: 295px;
+    display: inline-block;
+    padding: 9px 60px 7px;
+    line-height: 25px;
+    background: #CCCCCC;
+    font-size: 14px;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+#cubg:hover,
+.cart-form-group .ps-btn:hover {
+    background-color: #cd9b33;
+    color: white;
+}
+
+.ps-cart__total h3 {
+    width: 293px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #515356;
+    text-transform: uppercase;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.ps-cart__total h3 span {
+    float: right;
+    font-size: 24px;
+    color: #000;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.ps-btn--gray {
+    width: 293px!important;
+    box-sizing: border-box;
+}
+
+#cubg {
+    background: transparent;
+    color: #CD9B33;
+    border: 2px solid #CD9B33;
+}

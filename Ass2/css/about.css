@@ -1,0 +1,118 @@
+.about {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f7f7f7
+}
+
+#ct {
+    background: url("../images/contact.jpg");
+    background-size: cover;
+}
+
+.about-main {
+    overflow: hidden;
+}
+
+.about-main .fr {
+    width: 600px;
+}
+
+.about-main .fl img {
+    width: 600px;
+}
+
+.tab-list li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.tab-list li a:hover {
+    color: #cd9b33;
+}
+
+.tab-list li a {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #767676;
+    line-height: 1.8em;
+}
+
+.about-main h3 {
+    margin: 50px 0 35px 0;
+    font-family: "Kaushan Script", cursive;
+    font-size: 36px;
+    color: #000;
+}
+
+.about-main p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: #767676;
+    line-height: 2em;
+}
+
+.team {
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.team > .fl .fl:last-child {
+    position: relative;
+    height: 420px;
+    width: 280px;
+    text-align: left;
+}
+
+.ps-block__footer {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.team > .fl .fl img {
+    width: 280px;
+    padding: 0 20px 0 10px;
+}
+
+.team p {
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #767676;
+}
+
+.team-hd span {
+    display: block;
+    color: #cd9b33;
+}
+
+.history {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.title {
+    font-family: "Kaushan Script", cursive;
+    font-size: 48px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.tit-img img {
+    width: 75px;
+    margin: 15px 0;
+}
+
+.SubscribeBtn{
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+}
+
+.round{
+    border-radius:100%;
+}

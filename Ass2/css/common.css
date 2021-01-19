@@ -1,0 +1,299 @@
+.header {
+    overflow: hidden;
+    background: #F9F5EA;
+}
+
+.nav {
+    height: 100px;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.logo {
+    margin: 10px 80px 10px 0;
+    width: 135px;
+}
+
+.nav .fl li {
+    float: left;
+    font-size: 20px;
+}
+
+.nav a {
+    padding-bottom: 10px;
+}
+
+.currentBorder {
+    border-bottom: 2px solid #cd9b33;
+}
+
+.nav .fl li a:hover {
+    color: #cd9b33;
+}
+
+.nav i {
+    font-size: 25px;
+    display: inline-block;
+    color: #333;
+    margin: 0 15px;
+    padding: 0 10px;
+}
+
+.nav i:hover {
+    cursor: pointer;
+    color: #cd9b33;
+}
+
+.nav .fl li {
+    text-align: center;
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+.banner {
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    padding: 80px 0 50px 0;
+}
+
+.banner img {
+    float: right;
+}
+
+.banner .fl {
+    position: absolute;
+    text-align: left;
+    left: 20px;
+    top: 120px;
+}
+
+.banner .fl p {
+    line-height: 40px;
+    color: #333;
+}
+
+.banner .fl h1 {
+    font-family: inherit;
+    width: 500px;
+}
+
+.banner .fl h1:hover {
+    cursor: pointer;
+    color: #cd9b33;
+}
+
+.mar {
+    margin-top: 20px;
+}
+
+.img img {
+    width: 75px;
+    margin: 15px 0;
+}
+
+.btn {
+    cursor: pointer;
+    width: 180px;
+    color: #cd9b33;
+    background: #F9F5EA;
+    height: 40px;
+    border: 2px solid #cd9b33;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: #cd9b33;
+    color: white;
+}
+
+#bg {
+    background: url("../images/product.jpg");
+    background-size: cover;
+}
+
+.ps-hero__content {
+    margin: 20px 0;
+}
+
+.ps-hero__content li {
+    float: left;
+}
+
+.breadcrumb {
+    display: inline-block;
+    text-align: center;
+}
+
+.ps-breadcrumb {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ps-hero__content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.79;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.copyright {
+    background-color: #000;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 20px;
+}
+
+.copyright b {
+    color: white;
+}
+
+.footer {
+    padding: 80px 0;
+    background-color: #22202e;
+}
+
+.footer .w {
+    overflow: hidden;
+}
+
+.footer .w .fl {
+    width: 360px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.footer .w .fl h4 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.form-group {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer .w .fl:nth-of-type(2) p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #979797;
+}
+
+.form-group input {
+    float: left;
+    width: 239px;
+    height: 48px;
+    border: solid 1px #979797;
+    border-right: 0;
+    background-color: transparent;
+    text-indent: 10px;
+    color: #979797;
+    border-radius: 50px 0 0 50px;
+    transition: all 0.4s ease;
+}
+
+.form-group button {
+    width: 119px;
+    float: right;
+    height: 50px;
+    background-color: #cd9b33;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+}
+
+.form-group button:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+
+.footer .w .fl:first-child img {
+    display: block;
+    margin: 0 auto 30px;
+    width: 200px;
+}
+
+.footer .w .fl:last-child {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    color: #979797;
+}
+
+.ps-list--social {
+    text-align: center;
+}
+.ps-list--social li {
+    display: inline-block;
+}
+.footer-img img {
+    margin-right: 15px;
+}
+
+.item-1 {
+    margin-bottom: 40px;
+}
+
+.footer .w .fl:first-child p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #ccc;
+}
+
+.ps-list--social li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.ps-list--social li a {
+    color: #8e8e8e;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    background-color: #EDEDED;
+    border-radius: 50%;
+}
+
+.totop {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.totop a {
+    color: #cd9b33;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.block{
+    display: block;
+}
+
+.inherit{
+    float: inherit;
+}
+
+.h300{
+    height: 300px;
+}
